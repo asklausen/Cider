@@ -12,5 +12,5 @@ public struct Preview: Codable {
     public let url: String
     
     /// (Optional) The preview artwork for the associated music video.
-    public let artwork: Artwork
+    public let artwork: Artwork?
 }
